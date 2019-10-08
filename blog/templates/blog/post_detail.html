@@ -17,7 +17,7 @@
         {% endif %}
 
         {% if post.text %}
-            <p>{{ post.text }}</p>
+            <p>{{ post.text|linebreak|safe }}</p>
         {% endif %}
 
 
