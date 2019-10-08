@@ -11,17 +11,16 @@
             <a class="btn btn-default" href="{% url 'post_edit' pk=post.pk %}"><span class="glyphicon glyphicon-pencil"></span></a>
         {% endif %}
         <h2>{{ post.title }}</h2>
-        {% if post.post_type == 'texto' %}
+
+        {% if post.id_video_youtube %}
+            <iframe width="800" height="455" src="https://www.youtube.com/embed/{{ post.id_video_youtube }}?autoplay=1" frameborder="0" allowfullscreen></iframe>
+        {% endif %}
+
+        {% if post.text %}
             <p>{{ post.text|linebreaksbr }}</p>
         {% endif %}
 
-        {% if post.post_type == 'imagem' %}
-            <img src="{{ post.text }}" />
-        {% endif %}
 
-        {% if post.post_type == 'youtube' %}
-            <iframe width="800" height="455" src="https://www.youtube.com/embed/{{ post.text }}?autoplay=1" frameborder="0" allowfullscreen></iframe>
-        {% endif %}
     </div>
 
     <!-- Mostra bloco de comentários do disqus.com -->
