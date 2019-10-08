@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d75fb877-0e41-4646-9592-7699f8b16738" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/post_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/templates/blog/post_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/post_edit.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/templates/blog/post_edit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -97,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/templates/blog/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="93" selection-start-line="9" selection-start-column="93" selection-end-line="9" selection-end-column="93" />
+            <state relative-caret-position="315">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -136,11 +136,11 @@
         <option value="$PROJECT_DIR$/blog/urls.py" />
         <option value="$PROJECT_DIR$/blog/admin.py" />
         <option value="$PROJECT_DIR$/mysite/settings.py" />
-        <option value="$PROJECT_DIR$/blog/templates/blog/base.html" />
         <option value="$PROJECT_DIR$/blog/templates/blog/post_list.html" />
         <option value="$PROJECT_DIR$/blog/forms.py" />
         <option value="$PROJECT_DIR$/blog/templates/blog/post_detail.html" />
         <option value="$PROJECT_DIR$/blog/templates/blog/post_edit.html" />
+        <option value="$PROJECT_DIR$/blog/templates/blog/base.html" />
       </list>
     </option>
   </component>
@@ -235,12 +235,12 @@
       <workItem from="1570499603557" duration="662000" />
       <workItem from="1570505292079" duration="430000" />
       <workItem from="1570532234793" duration="681000" />
-      <workItem from="1570533601080" duration="7999000" />
+      <workItem from="1570533601080" duration="8411000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9772000" />
+    <option name="totallyTimeSpent" value="10184000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="736" extended-state="6" />
@@ -317,13 +317,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/blog/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="93" selection-start-line="9" selection-start-column="93" selection-end-line="9" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -350,8 +343,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/templates/blog/post_edit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/blog/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
         </state>
       </provider>
     </entry>
